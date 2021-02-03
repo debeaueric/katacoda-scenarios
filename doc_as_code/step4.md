@@ -1,12 +1,17 @@
-Visualize RST files in Visual Studio Code
+## Visualize RST files in Visual Studio Code
 
-You can visualize the RST files in **Visual Studio Code**
+You can visualize RST files in [**Visual Studio Code**](https://code.visualstudio.com/).
 
-Open the Folder `/root/doc` under **Visual Studio Code**
+Open the Folder `/root/doc` under **Visual Studio Code**.
 
-Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+Launch VS Code "Quick Open" (Ctrl+P on Windows/Linux, Cmd+P on MacOS), paste
+the following command and press enter.
 `ext install lextudio.restructuredtext`{{copy}}
 
-Browse the directory and open `ìndex.rst`
+*You may need to press `reload required` button under the new installed 
+extension*.
 
-You will see the RST file highlighted with the RST keywords
+Browse the directory (if needed click on the icon representing two files on
+the left menu) and open `index.rst`.
+
+You will see that RST syntax is highlighted.
